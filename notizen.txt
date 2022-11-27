@@ -1,0 +1,121 @@
+Farben: 
+	Weiß (wird oft mit Ärtzten verbunden)
+	Blau (wird oft von anderen benutzt)
+	
+Infos:
+	Über Sanja
+	Adresse (Google maps?)
+	Email
+	Telefonnummer
+	Terminvereinbarung
+	
+Aufbau:
+	Alles auf eine Seite mit Links zu den verschiedenen Abschnitte (Anker)
+	
+Abschnitte:
+	Über mich
+	Öffnungszeiten
+	Praxis
+	Kontakt (Termin vereinbaren)
+	
+	
+Coole Seiten:
+https://www.wr-neustadt-ortho.at/
+https://orthopaede-drschuh.at/
+https://ortho1150.at/
+https://www.orthopaedie-im-dritten.at/
+https://www.ortho-strehn.at/
+https://www.dr-kubista.at
+
+Boilderplate code:
+https://www.sitepoint.com/a-basic-html5-template/
+
+Farben:
+	Weiß
+	Blau 2ab2ff
+	Schwarz
+
+Icons:
+	https://fontawesome.com/search?s=solid&f=sharp&o=r
+
+Shapes:
+	https://app.haikei.app/
+
+Ilustrations:
+	https://undraw.co/illustrations
+	https://icons8.de/illustrations
+
+ToDo:
+	Boilerplatte code ändern
+	copyright einfügen
+	Impressum einfügen
+
+Türkis: 75c1b7
+Lila: 957fac
+Rot: d1232a
+
+https://visme.co/blog/website-color-schemes/
+1
+25
+39
+
+
+
+
+Herzlich Willkommen in der Ordination Dr. Sanja Savicic!
+ 
+Als Orthopädin und Traumatologin ist es mir ein Anliegen Ihnen die bestmögliche Betreuung anbieten zu können. Ich nehme mir die dafür nötige Zeit für Sie!
+ 
+Meine Ausbildung habe ich den muskuloskelettalen Erkrankung im Erwachsenenalter gewidmet. Aber ein sehr großes Augenmerk habe ich den Kindern gewidmet, denn das Heranwachsen und die damit oft verbundene Unsicherheit der Eltern ist mir ein großes Anliegen.
+ 
+Sie sollen ihr Krankheitsbild und die von mir empfohlene Therapie verstehen, sowie  genügen Zeit für Fragen haben.
+Mein Ziel ist es, Ihnen ein weitgehend schmerzfreies Leben zu ermöglichen.
+ 
+Des weiteren biete ich Ihnen eine rasche Terminvergabe und kurze Wartezeiten in einem schönen Ambiente an.
+ 
+Sie werden ausschließlich von mir behandelt, keine Vertretungsärzte oder Lehrpraktiken!
+ 
+Ich hoffe Sie bald in meiner Ordination begrüßen zu dürfen!
+ 
+ 
+ 
+ 
+Persönliches
+ 
+•	Geboren am 04.09.1980 in Zagreb, verheiratet, Mutter zweier Töchter
+•	Matura 1999 am Ödenburgergymnasium in Wien
+•	Promotion 2007 an der med. Universität Wien mit der Dissertation „Langzeitergebnisse in der Behandlung der Weichtteilsarkome“
+•	Lehrpraxis bei Dr. Gisinger und Partner
+•	Ortho. Ausbildung unter Prof. Alfred Engel; weitere, traumatologische Ausbildung unter Prof. Mehdi Mousavi in der Klinik Donaustadt
+•	2015 FÄ für Orthopädie und orthopädischen Chirurgie
+•	2018 FÄ für Orthopädie und Traumatologie
+ 
+ 
+ 
+Leistungsumfang
+ 
+•	Hüft-Ultraschall laut Mutter-Kind-Pass (in der 1. und 6. -8. Lebenswoche), sowie die orthopädische Untersuchung des Säuglings in der 7.-9. Lebenswoche;
+Für diese Untersuchung kann ich auch gerne zu Ihnen nach Hause kommen (auf Anfrage)!!
+•	Kinderorthopädische Untersuchung in jedem Lebensalter, ins. Fuß- und Wirbelsäulekontrollen sowie Achsfehlstellungen.
+•	Sämtliche akuten und chronischen Erkrankungen der großen und kleinen Gelenke
+•	Skoliosetherapie
+•	Schmerztherapie
+•	Stoßwellentherapie (in Kooperation mit Dr. Balga)
+•	Zusammenarbeit und ständiger Austausch mit medizinischen KollegInnen, Physiotherapeuten und Bandagisten.
+ 
+Als Wahlärztin habe ich keinen Vertrag mit den Krankenkassen und somit werden meine Leistungen direkt verrechnet. Sie können bei Ihrer Krankenkasse eine Honorarnote einreichen und einen Teil des Betrags rückerstattet bekommen.
+Ebenfalls erlaube ich mir ein Ausfallshonorar, bei nicht rechtzeitiger Terminabsage, zu verrechnen.
+ 
+Qualifikationen
+ 
+•	Fachärztin für Orthopädie und Traumatologie
+•	Zusatzdiplom für Säuglingshüftsonographie
+•	Multiple Kurse im Bereich der Wirbelsäulenchirurgie und Kinderorthopädie
+•	Mitglied der Gesellschaft für Orthopädie und orthopädische Chirurgie
+•	Mitglied der Gesellschaft für Orthopädie und Traumatologie
+ 
+Weiterbildung
+ 
+•	Stetige Weiter- und Fortbildung um am aktuellen Stand zu bleiben
+•	Manuelle Medizin
+•	Kinderorthopädisches Zertifikat
