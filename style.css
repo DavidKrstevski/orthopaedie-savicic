@@ -39,6 +39,7 @@
   --fs-body: var(--fs-16);
   --fs-button: var(--fs-14);
   --fs-copyright: var(--fs-12);
+  --fs-quote: var(--fs-18);
 
   --size-100: .25rem;
   --size-200: .5rem;
@@ -67,6 +68,7 @@
     --fs-body: var(--fs-20);
     --fs-button: var(--fs-18);
     --fs-copyright: var(--fs-14);
+    --fs-quote: var(--fs-24)
   }
 }
 
@@ -188,6 +190,16 @@ p[data-width="wide"]{
 .button[data-type="inverted"]:focus-visible {
   background-color: var(--clr-neutral-900);
   color: var(--clr-primary-1);
+}
+
+.title {
+  padding-bottom: var(--size-1000);
+}
+
+@media (min-width: 50em){
+  .title {
+    padding-bottom: var(--size-1500);
+  }
 }
 
 /* navigation */
@@ -370,6 +382,7 @@ p[data-width="wide"]{
 }
 .fs-h3 {font-size: var(--fs-h3);}
 .fs-copyright {font-size: var(--fs-copyright);}
+.fs-quote {font-size: var(--fs-quote);}
 
 .fs-xs {font-size: var(--fs-14);}
 .fs-s {font-size: var(--fs-16);}
@@ -384,6 +397,10 @@ p[data-width="wide"]{
 .padding-horizontal-900 {
   padding-left: var(--size-900);
   padding-right: var(--size-900);
+}
+
+.padding-block-900-small-top {
+  padding-block: var(--size-900);
 }
 
 .border-200 {
@@ -466,6 +483,10 @@ p[data-width="wide"]{
 @media (min-width: 50em) {
   .container {
     --padding: 2.5rem;
+  }
+
+  .padding-block-900-small-top {
+    padding-block: var(--size-200) var(--size-900);
   }
 
   .even-columns {
