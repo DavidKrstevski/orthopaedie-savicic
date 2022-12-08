@@ -277,7 +277,7 @@ a {
     position: absolute;
     padding: var(--size-700);
     margin-right: 0;
-    inset: 8rem 2rem auto;
+    inset: 9rem 2rem auto;
     background-color: white; /* Farbe anpassen */
     border-radius: var(--size-200);
     box-shadow: 0 0 0.5em rgb(0, 0, 0, 0.25);
@@ -441,6 +441,13 @@ a {
   }
 }
 
+@media (min-width: 50em) and (max-width: 80em) {
+  .remove-logo {
+    display: none;
+    position: absolute;
+  }
+}
+
 .container {
   --max-width: 1400px;
   --padding: 1.5rem;
@@ -488,8 +495,18 @@ a {
   align-items: center;
 }
 
-.shrink-image-on-mobile {
+.shrink-image-on-mobile-70 {
   max-width: 70%;
+}
+
+.shrink-image-on-mobile-300 {
+  max-width: 300px;
+}
+
+@media (max-width: 50em) {
+  .remove-padding-top-on-mobile {
+    padding-top: 0;
+  }
 }
 
 @media (min-width: 50em) {
