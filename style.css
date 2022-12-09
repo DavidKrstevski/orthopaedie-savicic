@@ -158,6 +158,11 @@ p[data-width="wide"]{
   max-width: 100%;
 }
 
+.text-hover:hover{
+  color: var(--clr-primary-1);
+  transition: 0.2s;
+}
+
 ul {
   padding-left: 20px;
 }
@@ -397,7 +402,7 @@ a {
 
 .padding-block-1200 {padding-block: var(--size-1200);}
 .padding-block-900 {padding-block: var(--size-900);}
-.padding-block-700 {padding-block: var(--size-700);}
+.padding-block-300 {padding-block: var(--size-300);}
 
 .padding-horizontal-900 {
   padding-left: var(--size-900);
@@ -468,6 +473,11 @@ a {
 .push-right {
   margin-left: auto;
   margin-right: auto;
+}
+
+.grid-children > *{
+  display: grid;
+  gap: .5em;
 }
 
 .center-text {
