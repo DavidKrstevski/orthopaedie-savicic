@@ -481,7 +481,11 @@ a {
   margin-inline: auto;
 }
 
-.flow * + * {
+.flow * + *{
+  margin-top: var(--flow-spacer, 3em);
+}
+
+.flow-no-p * + *:not(p){
   margin-top: var(--flow-spacer, 3em);
 }
 
