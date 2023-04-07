@@ -39,3 +39,17 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry)
+    if (entry.isIntersecting){
+      entry.target.classList.add('scroll-anim-opacity-1')
+    } else {
+      entry.target.classList.remove('scroll-anim-opacity-1')
+    }
+  });
+});
+
+const hiddenElements = document.querySelectorAll('.scroll-anim-opacity-0');
+hiddenElements.forEach((el) => observer.observe(el));

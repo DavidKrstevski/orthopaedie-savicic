@@ -186,18 +186,6 @@ a {
   color: var(--clr-primary-1);
 }
 
-.button:hover,
-.button:focus-visible {
-  background-color: var(--clr-primary-1);
-  color: var(--clr-neutral-900)
-}
-
-.button[data-type="inverted"]:hover,
-.button[data-type="inverted"]:focus-visible {
-  background-color: var(--clr-neutral-900);
-  color: var(--clr-primary-1);
-}
-
 .title {
   padding-bottom: var(--size-1000);
 }
@@ -212,6 +200,7 @@ a {
 
 .primary-navigation {
   margin-right: var(--size-1200);
+  z-index: 999;
 }
 
 .nav-wrapper {
@@ -252,13 +241,13 @@ a {
 
 .nav-list a:hover,
 .nav-list a:focus {
-  color: var(--clr-primary-1); /* Farbe anpassen */
+  color: var(--clr-neutral-900); /* Farbe anpassen */
 }
 
 .nav-list a:after{
   content: "";
   position: absolute;
-  background-color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-900);
   height: 0.15em;
   width: 0;
   left: 0;
@@ -288,6 +277,15 @@ a {
     gap: var(--size-500);
     text-align: center;
     font-weight: var(--fw-bold);
+  }
+
+  .nav-list a:hover,
+  .nav-list a:focus {
+    color: var(--clr-primary-1); /* Farbe anpassen */
+  }
+
+  .nav-list a:after{
+    background-color: var(--clr-neutral-100);
   }
 
   .primary-navigation[data-visible] {
@@ -537,6 +535,51 @@ a {
   max-width: 300px;
 }
 
+.grow-transition-10 {
+  transition: transform 0.3s ease;
+}
+
+/*Animations & Transitions*/
+.scroll-anim-up {
+  transform: translateY(30%);
+}
+
+.scroll-anim-down {
+  transform: translateY(-30%);
+}
+
+.scroll-anim-left {
+  transform: translateX(-30%);
+}
+
+.scroll-anim-right {
+  transform: translateX(30%);
+}
+
+.scroll-anim-opacity-0 {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 1s;
+}
+ 
+.scroll-anim-opacity-1 {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.grow-transition-10:hover{
+  transform: scale(1.1);
+}
+
+.grow-transition-5 {
+  transition: transform 0.3s ease;
+}
+
+.grow-transition-5:hover{
+  transform: scale(1.05);
+}
+
 @media (max-width: 50em) {
   .remove-padding-top-on-mobile {
     padding-top: 0;
@@ -584,19 +627,7 @@ a {
     order: 1;
   }
 
-  .nav-list a:hover,
-  .nav-list a:focus {
-    color: var(--clr-neutral-900); /* Farbe anpassen */
-  }
-
-  .nav-list a:after{
-    background-color: var(--clr-neutral-900);
-  }
-
   .wave {
     background-image: url('images/wave.svg');
   }
 }
-
-
-
