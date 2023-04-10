@@ -186,13 +186,13 @@ a {
   color: var(--clr-primary-1);
 }
 
-.title {
-  padding-bottom: var(--size-1000);
+.wave-gap {
+  padding-top: var(--size-1000);
 }
 
 @media (min-width: 50em){
-  .title {
-    padding-bottom: var(--size-1500);
+  .wave-gap {
+    padding-top: var(--size-1500);
   }
 }
 
@@ -568,12 +568,13 @@ a {
   transform: translateX(0);
 }
 
-.grow-transition-10:hover{
-  transform: scale(1.1);
-}
-
+.grow-transition-10,
 .grow-transition-5 {
   transition: transform 0.3s ease;
+}
+
+.grow-transition-10:hover{
+  transform: scale(1.1);
 }
 
 .grow-transition-5:hover{
